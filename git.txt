@@ -1,0 +1,25 @@
+git init //создание репозитория, делается один раз
+
+---------------
+
+//индексирование всех измененных файлов
+git add . 
+
+//фиксация всех изменений
+git commit -m "my comment"
+
+//отправка на GitHub
+git push origin master
+
+---------
+# initialize a repository, just once 
+git init              
+----------------
+# stage all modified files
+git add .             
+
+# commit all changes with a message
+git commit -m "my comment"   
+
+# push to GitHub (to the 'master' branch)
+git push origin master    
